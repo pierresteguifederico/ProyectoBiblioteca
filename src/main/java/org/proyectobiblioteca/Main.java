@@ -5,7 +5,7 @@ import java.sql.SQLException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-//Aqui es donde se reliza la implementación del programa y se llaman a las clases
+//Aquí es donde se reliza la implementación del programa y se llaman a las clases
 public class Main {
     public static void main(String[] args) {
 

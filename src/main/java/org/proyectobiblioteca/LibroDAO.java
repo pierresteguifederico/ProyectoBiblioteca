@@ -98,7 +98,6 @@ public class LibroDAO {
             stmtActualizarLibro.setInt(3, libro.getFechaPublicacion());
             stmtActualizarLibro.setString(4, tituloAnterior.toLowerCase());
             int filasAfectadas = stmtActualizarLibro.executeUpdate();
-            System.out.println("Filas afectadas: " + filasAfectadas);
             return filasAfectadas > 0; // Retorna true si se actualizó al menos una fila
         }
     }
