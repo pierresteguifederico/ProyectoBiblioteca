@@ -63,7 +63,7 @@ Ejemplo: Los métodos en la clase LibroDAO y Biblioteca están documentados con 
 
 ## Reflexiones sobre lo aprendido y dificultades encontradas durante el desarrollo
 
-- Me gustó mucho el curso porque información sobre muchos aspectos importantes en el desarrollo de software en Java, desde la programación básica hasta la conexión con bases de datos y las mejores prácticas a la hora de escribir código. Como dificultad puedo decir que nunca había hechos pruebas y me costó un poco al principio pero una vez que se entiende la lógica es una herramienta poderosa para controlar de que forma funcionan los métodos definidos en las clases.
+- Me gustó mucho el curso porque contiene información sobre muchos aspectos importantes en el desarrollo de software en Java, desde la programación básica hasta la conexión con bases de datos y las mejores prácticas a la hora de escribir código. Como dificultad puedo decir que nunca había hechos pruebas y me costó un poco al principio pero una vez que se entiende la lógica es una herramienta poderosa para controlar de que forma funcionan los métodos definidos en las clases.
 
 ## Consideraciones adicionales 
 
