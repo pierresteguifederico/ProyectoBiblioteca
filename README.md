@@ -1,4 +1,4 @@
-# Proyecto de Ejemplo
+# Proyecto Gestión de Biblioteca
 
 Esta aplicación tiene como funcinalidad permitir a los usuarios añadir, buscar, modificar y eliminar libros de una lista, así como interactuar con una base de datos para guardar y recuperar información. 
 
