@@ -5,15 +5,17 @@ import java.sql.SQLException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+//Aqui es donde se reliza la implementación del programa y se llaman a las clases
 public class Main {
     public static void main(String[] args) {
+
         try (Connection conexion = BaseDeDatos.Conectar()) {
             LibroDAO libroDAO = new LibroDAO(conexion);
             Biblioteca biblioteca = new Biblioteca(libroDAO);
             Scanner teclado = new Scanner(System.in);
             boolean ejecutar = true;
 
-
+            //Muestra el menú principal con las opciones
             while (ejecutar) {
                 System.out.println("=======Proyecto Gestión Biblioteca=======");
                 System.out.println("1. Agregar libro");
@@ -33,6 +35,7 @@ public class Main {
                     teclado.nextLine(); // Limpiar el buffer
                     continue; // Volver al inicio del bucle
                 }
+//Se manejan las diferentes entradas por teclado con la estructura de control switch
                 switch (opcion) {
                     case 1:
                         System.out.print("Título: ");
@@ -46,7 +49,7 @@ public class Main {
                         try {
                             fechaPublicacion = teclado.nextInt();
                             teclado.nextLine(); // Limpiar el buffer
-                        } catch (InputMismatchException e) {
+                        } catch (InputMismatchException errorNumeroInvalido) {
                             System.out.println("Entrada inválida. Por favor ingrese un número para el año.");
                             teclado.nextLine(); // Limpiar el buffer
                             continue; // Volver al inicio del bucle
@@ -77,9 +80,11 @@ public class Main {
                 }
 
             }
+//Se maneja la excepción si falla la conexión a la base de datos
+        } catch (SQLException errorFalloConexion) {
+            System.out.println("Error de conexión con la base de datos: " + errorFalloConexion.getMessage());
 
-        } catch (SQLException e) {
-            System.out.println("Error de conexión con la base de datos: " + e.getMessage());
+
 
 
         }

@@ -1,6 +1,6 @@
 package org.proyectobiblioteca;
 
-//Se define la plantilla libro con sus atributos y luego métodos
+//Se define la plantilla Libro con sus atributos
 public class Libro {
     private String titulo;
     private String autor;
@@ -25,6 +25,7 @@ public class Libro {
     public int getFechaPublicacion() {
         return fechaPublicacion;
     }
+
 //Se define el método toString para proporcionar una representación del objeto Libro en forma de cadena de texto
     @Override
     public String toString() {
