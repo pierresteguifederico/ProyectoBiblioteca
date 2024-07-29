@@ -2,7 +2,7 @@
 
 ## Descripción de la funcionalidad de la aplicación
 
-- Esta aplicación tiene como funcinalidad permitir a los usuarios añadir, buscar, modificar y eliminar libros de una lista, así como interactuar con una base de datos para guardar y recuperar información.
+- Esta aplicación tiene como funcionalidad permitir a los usuarios añadir, buscar, modificar y eliminar libros de una lista, así como interactuar con una base de datos para guardar y recuperar información.
 
 ## Explicación de cómo se aplicaron los conceptos aprendidos en cada módulo
 
