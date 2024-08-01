@@ -71,5 +71,4 @@ Ejemplo: Los métodos en la clase LibroDAO y Biblioteca están documentados con 
 - Se utilizaron patrones de diseño como Inyección de dependencias, Principio de responsabilidad única y Data Acces Object (DAO)
 - Se utilizó una arquitectura de diseño por capas
 - Se utilizó SQLite para simplificar las operaciones con la base de datos
-- Se utilizaron declaraciones try with resources para manejar las excepciones y los recursos
 - Se podrían haber agregado más métodos (como listar ó eliminar por autor y fecha) pero se optó por dejar la aplicación lo mas simple posible, con posibilidad de extender sus funcionalidades gracias a la modularidad del diseño
